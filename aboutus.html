@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <title>FactoGuides</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" href="images/factoriocog.png" type="image/png" sizes="16x16">
+</head>
+<body>
+    <header>
+        <img src="images/factoriocog.png" alt="Logo">
+        <h1>FactoGuides</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="aboutus">
+            <h2>About Us:</h2>
+            <p>
+                This website was created for the sole purpose of helping people enjoy the game of Factorio
+                more by teaching them how key parts of the game work with useful guides and tools like resource
+                calculators to quickly figure out what they need to produce in their factories!
+            </p>
+        </div>
+        <div class="references">
+            <h2>References:</h2>
+            <p>
+                Images From: <br>
+                Factorio Game Wiki <br>
+                Factorio Game Official Trailer <br>
+            </p>
+        </div>
+        <div class="contactus">
+            <h2>Contact Us:</h2>
+            <form action="mailto:lukbacca@gmail.com" method="post" enctype="text/plain" id="cuform">
+                <label for="firstname">First Name: *</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                <label for="lastname">Last Name: *</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                <label for="email">Email: *</label>
+                    <input type="email" id="email" name="email" required>
+                <label for="topic">Comments: *</label>
+                    <textarea id="topic" name="topic" rows="4" required></textarea>
+                <div class="formrow">
+                    <button type="submit" class="submitbutton">Submit</button>
+                    <button type="reset" class="resetbutton">Reset</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">All images remain the property of the original artists.</p>
+        <a href="aboutus.html" class="report">Contact Us</a>
+    </footer>
+</body>
+</html>

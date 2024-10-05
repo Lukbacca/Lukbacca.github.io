@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <title>FactoGuides</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" href="images/factoriocog.png" type="image/png" sizes="16x16">
+</head>
+<body>
+    <header>
+        <img src="images/factoriocog.png" alt="Logo">
+        <h1>FactoGuides</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="calcbody">
+            <div class="calcheading">
+                <h2>Green Circuit Calculator:</h2>
+            </div>
+            <div class="calculator">
+                <form id="caform">
+                    <label>Number of circuits:</label>
+                    <div class="formrow">
+                        <input type="text" id="greencircuitcount" name="greencircuitcount" required>
+                        <select id="rate">
+                            <option>/s</option>
+                            <option>/m</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submitbutton">Go</button>
+                    <label>Resources Required:</label>
+                    <label>Iron:</label>
+                    <textarea id="iron" name="iron" rows="1" readonly></textarea>
+                    <label>Copper:</label>
+                    <textarea id="copper" name="copper" rows="1" readonly></textarea>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">All images remain the property of the original artists.</p>
+        <a href="aboutus.html" class="report">Contact Us</a>
+    </footer>
+</body>
+</html>
